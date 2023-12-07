@@ -1,0 +1,17 @@
+<html>
+    <body>
+        <h1 id="demo"></h1>
+        <script>
+        let i=0;
+        function fun()
+        {
+            let a=["HTML","CSS","JAVASCRIPT"];
+            document.getElementById("demo").innerHTML="welcome to" + a[i];
+            i++;
+            if(i==3)
+            i=0;
+        }
+        window.setInterval(fun,1000);
+        </script>
+    </body>
+</html>
